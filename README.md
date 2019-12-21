@@ -19,7 +19,7 @@ This app thrives to provide easy acccess to calculations in all domains listed b
 * Clone the repository  
   `git clone https://github.com/<username>/Calcify.git`   
   
-* Cloning the development branch
+* Cloning the development branch<br>
   `git clone --single-branch --branch development https://github.com/<username>/Calcify.git`
   
   where \< username \> refers to your username in your terminal
