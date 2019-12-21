@@ -32,7 +32,7 @@ This app thrives to provide easy acccess to calculations in all domains listed b
 
 ## Author
 
-### [Bishal Deb](https://github.com/pavitrawalia) ❤
+### [Pavitra Walia](https://github.com/pavitrawalia) ❤
 
 [<img src="https://image.flaticon.com/icons/svg/185/185964.svg" width="35" padding="10">](https://linkedin.com/in/pavitra-walia/)
 [<img src="https://image.flaticon.com/icons/svg/185/185981.svg" width="35" padding="10">](https://www.facebook.com/pavitra.walia.1/)
