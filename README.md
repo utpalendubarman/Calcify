@@ -35,7 +35,6 @@ This app thrives to provide easy acccess to calculations in all domains listed b
 ### [Pavitra Walia](https://github.com/pavitrawalia) ❤
 
 [<img src="https://image.flaticon.com/icons/svg/185/185964.svg" width="35" padding="10">](https://linkedin.com/in/pavitra-walia/)
-[<img src="https://image.flaticon.com/icons/svg/185/185981.svg" width="35" padding="10">](https://www.facebook.com/pavitra.walia.1)
 [<img src="https://image.flaticon.com/icons/svg/185/185985.svg" width="35" padding="10">](https://www.instagram.com/technophyle.p.w/)
 
 <br>
