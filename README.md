@@ -18,8 +18,12 @@ This app thrives to provide easy acccess to calculations in all domains listed b
 
 * Clone the repository  
   `git clone https://github.com/<username>/Calcify.git`   
-  where \< username \> refers to your username in your terminal
   
+* Cloning the development branch
+  `git clone --single-branch --branch development https://github.com/<username>/Calcify.git`
+  
+  where \< username \> refers to your username in your terminal
+<br>
 ## Contributions Guildlines
 
 * Contributors are always welcome and Please comment on the issue before working on it .
