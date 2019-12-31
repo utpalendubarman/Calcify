@@ -23,9 +23,9 @@ This app thrives to provide easy acccess to calculations in all domains listed b
   `git clone --single-branch --branch development https://github.com/<username>/Calcify.git`
   
   where \< username \> refers to your username in your terminal
-<br>
+
 # Contributions Guildlines
-<br>
+
 * Contributors are always welcome and Please comment on the issue before working on it .
 * You are open to create your own issue, wait for the approval before you start working on it  
 * Create pull requests, submit bugs, suggest new features.
