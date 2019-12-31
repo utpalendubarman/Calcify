@@ -3,6 +3,7 @@
 [![forthebadge](https://forthebadge.com/images/badges/made-with-java.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/built-for-android.svg)](https://forthebadge.com)
 <br>
+# About
 An App to perform Scientific Calculations and allow easy handling of calculations for everyday life.
 
 # Aim 
