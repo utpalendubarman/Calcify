@@ -29,6 +29,12 @@ This app thrives to provide easy acccess to calculations in all domains listed b
 * Join the Slack Channel for queries and other related stuff [here](https://calcify.slack.com/join/shared_invite/enQtODgyNDQ2NTIyMzI0LTg3OWExY2ViZDhhYzIxNGIyMDE1NDIwNWVkMzIwYTNjZjY0ZmVlMDQyZWI3ZWVmZTg2NmI1NmM2YmFhYTI0ODc)
 * Pull requests must always be made to the development branch
 
+# Score/Evalation Guidelines
+
+* Issue with Label : Point Assigned
+*            Easy    1
+*            Medium  2
+*            Hard    5
 <br>
 
 ## Author
