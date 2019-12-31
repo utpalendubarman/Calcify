@@ -3,6 +3,7 @@
 [![forthebadge](https://forthebadge.com/images/badges/made-with-java.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/built-for-android.svg)](https://forthebadge.com)
 <br>
+# About
 An App to perform Scientific Calculations and allow easy handling of calculations for everyday life.
 
 # Aim 
@@ -18,13 +19,9 @@ This app thrives to provide easy acccess to calculations in all domains listed b
 
 * Clone the repository  
   `git clone https://github.com/<username>/Calcify.git`   
-  
-* Cloning the development branch<br>
-  `git clone --single-branch --branch development https://github.com/<username>/Calcify.git`
-  
   where \< username \> refers to your username in your terminal
-
-# Contributions Guildlines
+  
+## Contributions Guildlines
 
 * Contributors are always welcome and Please comment on the issue before working on it .
 * You are open to create your own issue, wait for the approval before you start working on it  
@@ -32,6 +29,12 @@ This app thrives to provide easy acccess to calculations in all domains listed b
 * Join the Slack Channel for queries and other related stuff [here](https://calcify.slack.com/join/shared_invite/enQtODgyNDQ2NTIyMzI0LTg3OWExY2ViZDhhYzIxNGIyMDE1NDIwNWVkMzIwYTNjZjY0ZmVlMDQyZWI3ZWVmZTg2NmI1NmM2YmFhYTI0ODc)
 * Pull requests must always be made to the development branch
 
+# Score/Evaluation Criteria
+
+* Issue with Label : Point Assigned
+*            Easy    1
+*            Medium  2
+*            Hard    5
 <br>
 
 ## Author
