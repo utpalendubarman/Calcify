@@ -27,7 +27,7 @@ This app thrives to provide easy acccess to calculations in all domains listed b
 * You are open to create your own issue, wait for the approval before you start working on it  
 * Create pull requests, submit bugs, suggest new features.
 * Join the Slack Channel for queries and other related stuff [here](https://calcify.slack.com/join/shared_invite/enQtODgyNDQ2NTIyMzI0LTg3OWExY2ViZDhhYzIxNGIyMDE1NDIwNWVkMzIwYTNjZjY0ZmVlMDQyZWI3ZWVmZTg2NmI1NmM2YmFhYTI0ODc)
-* Pull requests must always be made to the development branch
+* Pull requests must always be made to the development branch according to the base template provided
 
 # Score/Evaluation Criteria
 
