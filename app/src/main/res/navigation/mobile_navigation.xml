@@ -3,31 +3,37 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/nav_home">
+    app:startDestination="@+id/nav_general">
 
     <fragment
-        android:id="@+id/nav_home"
-        android:name="com.pavitrawalia.calcify.ui.home.HomeFragment"
-        android:label="@string/menu_home"
-        tools:layout="@layout/fragment_home" />
+        android:id="@+id/nav_general"
+        android:name="com.pavitrawalia.calcify.ui.general.GeneralFragment"
+        android:label="@string/menu_general"
+        tools:layout="@layout/fragment_general" />
 
     <fragment
-        android:id="@+id/nav_gallery"
-        android:name="com.pavitrawalia.calcify.ui.gallery.GalleryFragment"
-        android:label="@string/menu_gallery"
-        tools:layout="@layout/fragment_gallery" />
+        android:id="@+id/nav_gpa_calculator"
+        android:name="com.pavitrawalia.calcify.ui.gpa_calculator.GPAFragment"
+        android:label="@string/menu_gpa_calculator"
+        tools:layout="@layout/fragment_gpa_calculator" />
 
     <fragment
-        android:id="@+id/nav_slideshow"
-        android:name="com.pavitrawalia.calcify.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_slideshow" />
+        android:id="@+id/nav_unit_conversion"
+        android:name="com.pavitrawalia.calcify.ui.unit_conversion.UnitConversionFragment"
+        android:label="@string/menu_unit_conversion"
+        tools:layout="@layout/fragment_unit_conversion" />
 
     <fragment
-        android:id="@+id/nav_tools"
-        android:name="com.pavitrawalia.calcify.ui.tools.ToolsFragment"
-        android:label="@string/menu_tools"
-        tools:layout="@layout/fragment_tools" />
+        android:id="@+id/nav_integral_differential"
+        android:name="com.pavitrawalia.calcify.ui.integral_differential_calculator.IntegralDifferentialFragment"
+        android:label="@string/menu_integral_differential"
+        tools:layout="@layout/fragment_integral_differential" />
+
+    <fragment
+        android:id="@+id/nav_vat_gst"
+        android:name="com.pavitrawalia.calcify.ui.vat_gst_calculator.VatGstFragment"
+        android:label="@string/menu_vat_gst"
+        tools:layout="@layout/fragment_vat_gst" />
 
 
 </navigation>
