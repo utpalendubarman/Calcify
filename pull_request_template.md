@@ -3,7 +3,7 @@
 Please include a summary of the change and which issue is fixed.
 
 Fixes # (issue no)
-
+Contributor: < your name >
 ## Type of change
 
 Please delete options that are not relevant.
