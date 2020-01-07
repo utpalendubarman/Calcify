@@ -223,7 +223,7 @@ public class GeneralFragment extends Fragment implements View.OnClickListener {
         sign = "+";
         value1 = input.getText().toString();
         input.setText(" ");
-        signBox.setText("+");
+        signBox.setText(value1+"+");
         hasDot = false;
     }
 
@@ -231,7 +231,7 @@ public class GeneralFragment extends Fragment implements View.OnClickListener {
         sign = "-";
         value1 = input.getText().toString();
         input.setText(" ");
-        signBox.setText("-");
+        signBox.setText(value1+"-");
         hasDot = false;
     }
 
@@ -239,7 +239,7 @@ public class GeneralFragment extends Fragment implements View.OnClickListener {
         sign = "*";
         value1 = input.getText().toString();
         input.setText(" ");
-        signBox.setText("×");
+        signBox.setText(value1+"×");
         hasDot = false;
     }
 
@@ -247,7 +247,7 @@ public class GeneralFragment extends Fragment implements View.OnClickListener {
         sign = "/";
         value1 = input.getText().toString();
         input.setText(" ");
-        signBox.setText("÷");
+        signBox.setText(value1+"÷");
         hasDot = false;
     }
 
