@@ -9,4 +9,19 @@
     <color name="colorSecondaryLite">#4f83cc</color>
     <color name="colorTextonPrimary">#ffffff</color>
     <color name="colorTextonSecondary">#ffffff</color>
+
+    <color name="colorUnitConversionBG">#0097A7</color>
+    <color name="colorUnitConversionBtnBG">#0288D1</color>
+
+    <color name="colorbtnSwap">#ffffff</color>
+
+    <color name="fromBG">#383A3B</color>
+    <color name="fromViewBG">#242526</color>
+    <color name="fromFontColor">#D1D8DF</color>
+
+    <color name="toBG">#000a12</color>
+    <color name="toViewBG">#000a12</color>
+    <color name="toFontBG">#000a12</color>
+
+
 </resources>
