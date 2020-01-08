@@ -12,11 +12,4 @@
     <string name="menu_integral_differential">Integral &amp; Diferential Calculator</string>
     <string name="menu_unit_conversion">Unit Conversion</string>
     <string name="menu_vat_gst">VAT &amp; GST Calculator</string>
-    <string name="calculate_gst">Calculate GST</string>
-    <string name="calculate_vat">Calculate VAT</string>
-    <string name="enter_rate">Enter Rate</string>
-    <string name="enter_amount">Enter Amount</string>
-    <string name="result">Result</string>
-    <string name="remove_vat">Remove Vat</string>
-    <string name="add_vat">Add Vat</string>
 </resources>
