@@ -37,7 +37,6 @@
             android:inputType="number"
             android:paddingTop="10dp"
             android:paddingBottom="10dp"
-            android:text="111"
             android:textColor="@color/fromFontColor" />
 
         <Spinner
@@ -89,7 +88,6 @@
             android:inputType="number"
             android:paddingTop="10dp"
             android:paddingBottom="10dp"
-            android:text="111"
             android:textColor="@color/fromFontColor" />
 
         <Spinner
