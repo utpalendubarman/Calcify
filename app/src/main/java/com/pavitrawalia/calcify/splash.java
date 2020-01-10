@@ -1,16 +1,14 @@
-package com.pavitrawalia.calcify.ui.vat_gst_calculator;
+package com.pavitrawalia.calcify;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-import com.pavitrawalia.calcify.R;
-
-public class GstCalculator extends AppCompatActivity {
+public class splash extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_gst_calculator);
+        setContentView(R.layout.activity_splash);
     }
 }
