@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.vat_gst_calculator.VatCalulator">
+    tools:context=".ui.vat_gst_calculator.GstCalculator">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -24,7 +24,7 @@
                 android:text="@string/enter_amount" />
 
             <EditText
-                android:id="@+id/editText2"
+                android:id="@+id/gstAmount"
                 android:layout_width="154dp"
                 android:layout_height="48dp"
                 android:ems="10"
@@ -51,7 +51,7 @@
                 android:text="@string/enter_rate" />
 
             <EditText
-                android:id="@+id/editText3"
+                android:id="@+id/gstRate"
                 android:layout_width="177dp"
                 android:layout_height="57dp"
                 android:layout_marginLeft="26dp"
@@ -76,7 +76,7 @@
                 android:orientation="horizontal">
 
                 <Button
-                    android:id="@+id/button"
+                    android:id="@+id/AddGst"
                     android:layout_width="98dp"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="30dp"
@@ -84,7 +84,7 @@
                     android:text="Add GST" />
 
                 <Button
-                    android:id="@+id/button2"
+                    android:id="@+id/RemoveGst"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Remove GST"
@@ -100,6 +100,7 @@
                 android:layout_marginLeft="100dp"
                 android:layout_marginTop="145dp"
                 android:text="@string/result" />
+
 
         </LinearLayout>
 
