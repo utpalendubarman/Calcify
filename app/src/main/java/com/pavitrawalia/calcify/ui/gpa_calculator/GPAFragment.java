@@ -4,6 +4,7 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Spinner;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
@@ -17,19 +18,12 @@ import com.pavitrawalia.calcify.R;
 public class GPAFragment extends Fragment {
 
     private GPAViewModel homeViewModel;
-
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
         homeViewModel =
                 ViewModelProviders.of(this).get(GPAViewModel.class);
         View root = inflater.inflate(R.layout.fragment_gpa_calculator, container, false);
-        final TextView textView = root.findViewById(R.id.text_gpa_calculator);
-        homeViewModel.getText().observe(this, new Observer<String>() {
-            @Override
-            public void onChanged(@Nullable String s) {
-                textView.setText(s);
-            }
-        });
+
         return root;
     }
 }
