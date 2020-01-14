@@ -21,7 +21,16 @@
                 android:textAlignment="center"
                 />
             <TextView
-                android:text="Credit"
+                android:text="Credit Hour"
+                android:textColorHint="#888888"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:inputType="numberDecimal"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                />
+            <TextView
+                android:text="Grade Score"
                 android:textColorHint="#888888"
                 android:textColor="#ffffff"
                 android:textStyle="bold"
@@ -40,15 +49,123 @@
                 android:textAlignment="center"
                 />
             <EditText
+                android:id="@+id/credit1"
                 android:hint="Credit"
                 android:textColorHint="#888888"
                 android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:text="0"
+                android:inputType="numberDecimal"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                />
+            <EditText
+                android:hint="Grade"
+                android:id="@+id/grade1"
+                android:textColorHint="#888888"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:text="0"
+                android:inputType="numberDecimal"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                />
+        </TableRow>
+        <TableRow>
+            <EditText
+                android:hint="Enter Course name"
+                android:textColorHint="#888888"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                />
+            <EditText
+                android:id="@+id/credit2"
+                android:hint="Credit"
+                android:textColorHint="#888888"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:text="0"
+                android:inputType="numberDecimal"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                />
+            <EditText
+                android:hint="Grade"
+                android:id="@+id/grade2"
+                android:textColorHint="#888888"
+                android:textColor="#ffffff"
+                android:text="0"
                 android:textStyle="bold"
                 android:inputType="numberDecimal"
                 android:layout_weight="1"
                 android:textAlignment="center"
                 />
-
+        </TableRow>
+        <TableRow>
+            <EditText
+                android:hint="Enter Course name"
+                android:textColorHint="#888888"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                />
+            <EditText
+                android:id="@+id/credit3"
+                android:hint="Credit"
+                android:textColorHint="#888888"
+                android:textColor="#ffffff"
+                android:inputType="numberDecimal"
+                android:textStyle="bold"
+                android:text="0"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                />
+            <EditText
+                android:hint="Grade"
+                android:id="@+id/grade3"
+                android:textColorHint="#888888"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:text="0"
+                android:inputType="numberDecimal"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                />
+        </TableRow>
+        <TableRow>
+            <EditText
+                android:hint="Enter Course name"
+                android:textColorHint="#888888"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                />
+            <EditText
+                android:id="@+id/credit4"
+                android:hint="Credit"
+                android:textColorHint="#888888"
+                android:textColor="#ffffff"
+                android:inputType="numberDecimal"
+                android:textStyle="bold"
+                android:text="0"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                />
+            <EditText
+                android:id="@+id/grade4"
+                android:hint="Grade"
+                android:textColorHint="#888888"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:text="0"
+                android:inputType="numberDecimal"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                />
         </TableRow>
         <TableRow>
             <EditText
@@ -61,74 +178,26 @@
                 />
             <EditText
                 android:hint="Credit"
+                android:id="@+id/credit5"
                 android:textColorHint="#888888"
                 android:textColor="#ffffff"
                 android:textStyle="bold"
                 android:inputType="numberDecimal"
                 android:layout_weight="1"
-                android:textAlignment="center"
-                />
-
-        </TableRow>
-        <TableRow>
-            <EditText
-                android:hint="Enter Course name"
-                android:textColorHint="#888888"
-                android:textColor="#ffffff"
-                android:textStyle="bold"
-                android:layout_weight="1"
+                android:text="0"
                 android:textAlignment="center"
                 />
             <EditText
-                android:hint="Credit"
-                android:textColorHint="#888888"
-                android:textColor="#ffffff"
-                android:inputType="numberDecimal"
-                android:textStyle="bold"
-                android:layout_weight="1"
-                android:textAlignment="center"
-                />
-
-        </TableRow>
-        <TableRow>
-            <EditText
-                android:hint="Enter Course name"
+                android:hint="Grade"
+                android:id="@+id/grade5"
                 android:textColorHint="#888888"
                 android:textColor="#ffffff"
                 android:textStyle="bold"
-                android:layout_weight="1"
-                android:textAlignment="center"
-                />
-            <EditText
-                android:hint="Credit"
-                android:textColorHint="#888888"
-                android:textColor="#ffffff"
-                android:inputType="numberDecimal"
-                android:textStyle="bold"
-                android:layout_weight="1"
-                android:textAlignment="center"
-                />
-
-        </TableRow>
-        <TableRow>
-            <EditText
-                android:hint="Enter Course name"
-                android:textColorHint="#888888"
-                android:textColor="#ffffff"
-                android:textStyle="bold"
-                android:layout_weight="1"
-                android:textAlignment="center"
-                />
-            <EditText
-                android:hint="Credit"
-                android:textColorHint="#888888"
-                android:textColor="#ffffff"
-                android:textStyle="bold"
+                android:text="0"
                 android:inputType="numberDecimal"
                 android:layout_weight="1"
                 android:textAlignment="center"
                 />
-
         </TableRow>
 
     </TableLayout>
@@ -138,6 +207,18 @@
         android:text="Calculate GPA"
         android:background="#4DB6AC"
         android:padding="10dp"
+        android:id="@+id/btn"
         android:textColor="#ffffff"
         android:layout_gravity="center_horizontal"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/result"
+        android:text="Result"
+        android:textColorHint="#888888"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+    />
 </LinearLayout>
