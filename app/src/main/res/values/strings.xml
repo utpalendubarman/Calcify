@@ -19,4 +19,6 @@
     <string name="result">Result</string>
     <string name="remove_vat">Remove Vat</string>
     <string name="add_vat">Add Vat</string>
+    <string name="contact">Contact Us</string>
+    <string name="about">About/Info</string>
 </resources>

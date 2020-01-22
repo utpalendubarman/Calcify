@@ -24,6 +24,14 @@
             android:id="@+id/nav_vat_gst"
             android:icon="@drawable/ic_attach_money_black_24dp"
             android:title="@string/menu_vat_gst" />
+        <item
+            android:id="@+id/nav_about_info"
+            android:icon="@drawable/ic_info_black_24dp"
+            android:title="@string/about" />
+        <item
+            android:id="@+id/nav_contact_us"
+            android:icon="@drawable/ic_contact_mail_black_24dp"
+            android:title="@string/contact" />
     </group>
 
 
