@@ -12,9 +12,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Calcify"
+        android:textSize="62sp"
         android:textColor="#ffffff"
-        android:textSize="60sp"
-        android:layout_marginBottom="80dp"/>
+        android:layout_marginBottom="50dp"
+        />
     <ImageView
         android:layout_width="150dp"
         android:layout_height="150dp"
