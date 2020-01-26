@@ -16,7 +16,7 @@
     <string name="calculate_vat">Calculate VAT</string>
     <string name="enter_rate">Enter Rate</string>
     <string name="enter_amount">Enter Amount</string>
-    <string name="result">Result</string>
+    <string name="result">Result: </string>
     <string name="remove_vat">Remove Vat</string>
     <string name="add_vat">Add Vat</string>
     <string name="contact">Contact Us</string>
