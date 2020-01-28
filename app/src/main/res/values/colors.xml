@@ -10,7 +10,7 @@
     <color name="colorTextonPrimary">#ffffff</color>
     <color name="colorTextonSecondary">#ffffff</color>
 
-    <color name="colorUnitConversionBG">#0097A7</color>
+    <color name="colorUnitConversionBG">#c2c2c2</color>
     <color name="colorUnitConversionBtnBG">#0288D1</color>
 
     <color name="colorbtnSwap">#ffffff</color>
