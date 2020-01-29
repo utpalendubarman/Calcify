@@ -99,7 +99,6 @@ public class UnitConversionFragment extends Fragment {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
                 calculateResult();
-                pos1=position;
             }
 
             @Override
@@ -113,7 +112,6 @@ public class UnitConversionFragment extends Fragment {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
                 calculateResult();
-                pos2=position;
             }
 
             @Override
