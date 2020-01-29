@@ -4,103 +4,138 @@
     android:layout_height="match_parent"
     android:background="@color/fromBG"
     android:layoutDirection="ltr"
+    android:gravity="center_horizontal"
     android:orientation="vertical">
-
-    <Spinner
-        android:id="@+id/spUnitCategory"
+    <LinearLayout
         android:layout_width="wrap_content"
-        android:layout_height="0dp"
-        android:layout_gravity="center_horizontal"
-        android:layout_weight="1" />
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:background="@drawable/edspinnerbg"
+        android:orientation="horizontal">
 
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="0.7" />
-
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="50sp"
+            android:text="Category :"
+            android:gravity="center"/>
+        <Spinner
+            android:id="@+id/spUnitCategory"
+            android:layout_width="wrap_content"
+            android:layout_height="50sp"
+            android:layout_gravity="center" />
+    </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:weightSum="1.0"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
         android:gravity="center_horizontal"
-        android:paddingStart="16dp"
-        android:paddingEnd="16dp">
-
-        <EditText
-            android:id="@+id/edFromValue"
-            android:layout_width="0dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp">
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginRight="10dp"
-            android:layout_weight="1"
-            android:background="@drawable/edbg"
-            android:inputType="number"
-            android:paddingTop="10dp"
-            android:paddingBottom="10dp"
-            android:textColor="@color/fromFontColor" />
-
-        <Spinner
-            android:id="@+id/spFromType"
-            android:layout_width="0dp"
+            android:layout_weight=".5"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:background="@drawable/edspinnerbg"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="50sp"
+                android:text="Original:"
+                android:gravity="center"/>
+            <EditText
+                android:id="@+id/edFromValue"
+                android:layout_width="match_parent"
+                android:layout_height="50sp"
+                android:inputType="number"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="#000"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="1" />
+            android:layout_weight=".5"
+            android:paddingLeft="5dp"
+            android:background="@drawable/edspinnerbg"
+            android:orientation="horizontal">
 
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="50sp"
+                android:text="Unit:"
+                android:gravity="center"/>
+            <Spinner
+                android:id="@+id/spFromType"
+                android:layout_width="0dp"
+                android:layout_height="50sp"
+                android:layout_weight="1" />
+        </LinearLayout>
     </LinearLayout>
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="0.7" />
-
     <Button
         android:id="@+id/btnSwap"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="50sp"
         android:layout_gravity="center_horizontal"
         android:background="@color/colorUnitConversionBtnBG"
-        android:text="Swap"
+        android:text="Swap Unit"
+        android:padding="8dp"
+        android:drawableLeft="@drawable/ic_swap_vert_black_24dp"
         android:textColor="@color/colorbtnSwap"
-        android:visibility="gone" />
-
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="0.7" />
-
+        android:visibility="visible" />
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:gravity="center_horizontal"
-        android:paddingStart="16dp"
-        android:paddingEnd="16dp">
-
-
-        <EditText
-            android:id="@+id/edToValue"
-            android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:weightSum="1.0"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        android:paddingRight="5dp"
+        android:paddingLeft="5dp"
+        android:gravity="center_horizontal">
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginRight="10dp"
-            android:layout_weight="1"
-            android:background="@drawable/edbg"
-            android:enabled="false"
-            android:inputType="number"
-            android:paddingTop="10dp"
-            android:paddingBottom="10dp"
-            android:textColor="@color/fromFontColor" />
-
-        <Spinner
-            android:id="@+id/spToType"
-            android:layout_width="0dp"
+            android:layout_weight=".5"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:background="@drawable/edspinnerbg"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="50sp"
+                android:text="Result:"
+                android:gravity="center"/>
+            <EditText
+                android:id="@+id/edToValue"
+                android:layout_width="match_parent"
+                android:layout_height="50sp"
+                android:inputType="number"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="#000"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="1" />
-
+            android:layout_weight=".5"
+            android:paddingLeft="5dp"
+            android:background="@drawable/edspinnerbg"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="50sp"
+                android:text="Unit:"
+                android:gravity="center"/>
+            <Spinner
+                android:id="@+id/spToType"
+                android:layout_width="0dp"
+                android:layout_height="50sp"
+                android:layout_weight="1" />
+        </LinearLayout>
     </LinearLayout>
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1" />
-
 </LinearLayout>
