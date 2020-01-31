@@ -43,6 +43,7 @@ public class UnitConversionFragment extends Fragment {
     private UnitConversionViewModel homeViewModel;
     private String category;
     private int categoryIndex;
+    int pos1,pos2;
 
 
     public View onCreateView(@NonNull LayoutInflater inflater,
@@ -160,5 +161,10 @@ public class UnitConversionFragment extends Fragment {
 
     @OnClick(R.id.btnSwap)
     void onViewClicked() {
+        pos1=spFromType.getSelectedItemPosition();
+        pos2=spToType.getSelectedItemPosition();
+        spToType.setSelection(pos1);
+        spFromType.setSelection(pos2);
+
     }
 }
