@@ -103,7 +103,7 @@
             android:layout_height="match_parent"
             android:orientation="vertical">
 
-            <LinearLayout
+            <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="104dp"
                 android:orientation="horizontal">
@@ -112,20 +112,22 @@
                     android:id="@+id/addVat"
                     android:layout_width="98dp"
                     android:background="#ffff"
+                    android:layout_alignParentLeft="true"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="45dp"
+                    android:layout_marginLeft="75dp"
                     android:layout_marginTop="26dp"
                     android:text="Add VAT" />
 
                 <Button
                     android:id="@+id/removeVat"
-                    android:layout_width="wrap_content"
+                    android:layout_width="98dp"
                     android:layout_height="wrap_content"
                     android:background="#fff"
-                    android:layout_marginLeft="85dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="75dp"
                     android:layout_marginTop="26dp"
                     android:text="Remove VAT" />
-            </LinearLayout>
+            </RelativeLayout>
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -219,7 +221,7 @@
             android:layout_height="match_parent"
             android:orientation="vertical">
 
-            <LinearLayout
+            <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="104dp"
                 android:orientation="horizontal">
@@ -228,20 +230,22 @@
                     android:id="@+id/AddGst"
                     android:layout_width="98dp"
                     android:background="#ffff"
+                    android:layout_alignParentLeft="true"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="30dp"
+                    android:layout_marginLeft="75dp"
                     android:layout_marginTop="26dp"
                     android:text="Add GST" />
 
                 <Button
                     android:id="@+id/RemoveGst"
-                    android:layout_width="wrap_content"
+                    android:layout_width="98dp"
                     android:layout_height="wrap_content"
                     android:text="Remove GST"
                     android:background="#ffff"
-                    android:layout_marginLeft="60dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="75dp"
                     android:layout_marginTop="26dp"/>
-            </LinearLayout>
+            </RelativeLayout>
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="61dp"
