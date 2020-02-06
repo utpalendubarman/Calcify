@@ -1,20 +1,98 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
+    <include
+        layout="@layout/nav_toolbar"/>
 
-    <TextView
-        android:id="@+id/text_integral_differential"
+    <LinearLayout
+        android:id="@+id/differentiation_menu"
         android:layout_width="match_parent"
-        android:text="Integral Differential Calculator Fragment"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:textAlignment="center"
-        android:textSize="20sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-</androidx.constraintlayout.widget.ConstraintLayout>
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="70dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Differentiation"
+            android:textSize="20sp"
+            android:textColor="@color/colorAccent"
+            android:layout_margin="20dp"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Polynomial Function"
+            android:textColor="@color/colorAccent"
+            android:background="@color/cardview_light_background"
+            android:padding="20dp"
+            android:layout_margin="5dp"
+            android:layout_gravity="center"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_height="wrap_content"
+            android:text="Trigonometric Function"
+            android:textColor="@color/colorAccent"
+            android:background="@color/cardview_light_background"
+            android:padding="20dp"
+            android:textAllCaps="false"
+            android:layout_gravity="center"/>
+        <Button
+            android:layout_margin="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Logarithmic and Exopnential"
+            android:textColor="@color/colorAccent"
+            android:background="@color/cardview_light_background"
+            android:textAllCaps="false"
+            android:padding="20dp"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/integration_menu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="70dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Integration"
+            android:textSize="20sp"
+            android:textColor="@color/colorAccent"
+            android:layout_margin="20dp"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Polynomial Function"
+            android:padding="20dp"
+            android:layout_margin="5dp"
+            android:textColor="@color/colorAccent"
+            android:background="@color/cardview_light_background"
+            android:layout_gravity="center"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_height="wrap_content"
+            android:text="Trigonometric Function"
+            android:textColor="@color/colorAccent"
+            android:background="@color/cardview_light_background"
+            android:padding="20dp"
+            android:textAllCaps="false"
+            android:layout_gravity="center"/>
+        <Button
+            android:layout_margin="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Logarithmic and Exopnential"
+            android:textColor="@color/colorAccent"
+            android:background="@color/cardview_light_background"
+            android:textAllCaps="false"
+            android:padding="20dp"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+
+</RelativeLayout>
