@@ -59,7 +59,7 @@
 
             <EditText
                 android:id="@+id/vatAmount"
-                android:layout_width="154dp"
+                android:layout_width="177dp"
                 android:layout_height="48dp"
                 android:ems="10"
                 android:inputType="number"
@@ -110,17 +110,21 @@
 
                 <Button
                     android:id="@+id/addVat"
-                    android:layout_width="98dp"
+                    android:layout_width="100dp"
                     android:background="#ffff"
                     android:layout_alignParentLeft="true"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="75dp"
                     android:layout_marginTop="26dp"
-                    android:text="Add VAT" />
+                    android:textAllCaps="false"
+                    android:text="Add VAT"
+                    android:padding="3dp"/>
 
                 <Button
                     android:id="@+id/removeVat"
-                    android:layout_width="98dp"
+                    android:layout_width="100dp"
+                    android:textAllCaps="false"
+                    android:padding="3dp"
                     android:layout_height="wrap_content"
                     android:background="#fff"
                     android:layout_alignParentRight="true"
