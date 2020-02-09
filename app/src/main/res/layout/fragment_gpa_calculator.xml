@@ -18,6 +18,7 @@
                 android:textColor="#ffffff"
                 android:textStyle="bold"
                 android:layout_weight="1"
+                android:layout_width="170dp"
                 android:textAlignment="center"
                 />
             <TextView
@@ -46,6 +47,7 @@
                 android:textColor="#ffffff"
                 android:textStyle="bold"
                 android:layout_weight="1"
+                android:layout_width="170dp"
                 android:textAlignment="center"
                 />
             <EditText
@@ -57,6 +59,7 @@
                 android:text="0"
                 android:inputType="numberDecimal"
                 android:layout_weight="1"
+                android:layout_width="1dip"
                 android:textAlignment="center"
                 />
             <EditText
@@ -68,6 +71,7 @@
                 android:text="0"
                 android:inputType="numberDecimal"
                 android:layout_weight="1"
+                android:layout_width="1dip"
                 android:textAlignment="center"
                 />
         </TableRow>
@@ -78,6 +82,7 @@
                 android:textColor="#ffffff"
                 android:textStyle="bold"
                 android:layout_weight="1"
+                android:layout_width="170dp"
                 android:textAlignment="center"
                 />
             <EditText
@@ -89,6 +94,7 @@
                 android:text="0"
                 android:inputType="numberDecimal"
                 android:layout_weight="1"
+                android:layout_width="1dip"
                 android:textAlignment="center"
                 />
             <EditText
@@ -100,6 +106,7 @@
                 android:textStyle="bold"
                 android:inputType="numberDecimal"
                 android:layout_weight="1"
+                android:layout_width="1dip"
                 android:textAlignment="center"
                 />
         </TableRow>
@@ -110,6 +117,7 @@
                 android:textColor="#ffffff"
                 android:textStyle="bold"
                 android:layout_weight="1"
+                android:layout_width="170dp"
                 android:textAlignment="center"
                 />
             <EditText
@@ -121,6 +129,7 @@
                 android:textStyle="bold"
                 android:text="0"
                 android:layout_weight="1"
+                android:layout_width="1dip"
                 android:textAlignment="center"
                 />
             <EditText
@@ -132,6 +141,7 @@
                 android:text="0"
                 android:inputType="numberDecimal"
                 android:layout_weight="1"
+                android:layout_width="1dip"
                 android:textAlignment="center"
                 />
         </TableRow>
@@ -142,6 +152,7 @@
                 android:textColor="#ffffff"
                 android:textStyle="bold"
                 android:layout_weight="1"
+                android:layout_width="170dp"
                 android:textAlignment="center"
                 />
             <EditText
@@ -153,6 +164,7 @@
                 android:textStyle="bold"
                 android:text="0"
                 android:layout_weight="1"
+                android:layout_width="1dip"
                 android:textAlignment="center"
                 />
             <EditText
@@ -164,6 +176,7 @@
                 android:text="0"
                 android:inputType="numberDecimal"
                 android:layout_weight="1"
+                android:layout_width="1dip"
                 android:textAlignment="center"
                 />
         </TableRow>
@@ -174,6 +187,7 @@
                 android:textColor="#ffffff"
                 android:textStyle="bold"
                 android:layout_weight="1"
+                android:layout_width="170dp"
                 android:textAlignment="center"
                 />
             <EditText
@@ -184,6 +198,7 @@
                 android:textStyle="bold"
                 android:inputType="numberDecimal"
                 android:layout_weight="1"
+                android:layout_width="1dip"
                 android:text="0"
                 android:textAlignment="center"
                 />
@@ -196,6 +211,7 @@
                 android:text="0"
                 android:inputType="numberDecimal"
                 android:layout_weight="1"
+                android:layout_width="1dip"
                 android:textAlignment="center"
                 />
         </TableRow>
